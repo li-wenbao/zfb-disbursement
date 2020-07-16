@@ -1,0 +1,112 @@
+<!doctype html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title></title>
+		<meta name="viewport" content="width=device-width, initial-scale=1,maximum-scale=1, user-scalable=no">
+		<meta name="apple-mobile-web-app-capable" content="yes">
+		<meta name="apple-mobile-web-app-status-bar-style" content="black">
+		<link href="../../css/mui.css" rel="stylesheet" />
+		<link href="../../css/main.css" rel="stylesheet" />
+		<link href="../../css/icon.css" rel="stylesheet" />
+		<link href="../../css/style.css" rel="stylesheet" />
+		<link href="../../css/payment.css" rel="stylesheet" />
+	</head>
+	<body style="background: #efefef;">
+		<div class="">
+			<div class="pos-relative bg-historyinfo">
+				<div class="" id="imgBg"></div>
+				<div class="pos-absolute padding-sm text-lg pos-bf-top70" style="width: 100%;">
+					<div class="radius30 bg-white padding-sm">
+						<!-- 如果没有数据时显示 -->
+						<!-- <div class="flex justify-center padding-top-xl text-gray margin-top-xs" style="min-height: 200px;">
+							--暂无发放历史--
+						</div> -->
+						<div class="padding-sm padding-left-none border-bottom pos-relative">
+							<div class="flex justify-between">
+								<div class="flex flex-treble justify-between">
+									<div class="flex-treble">
+										<div class="flex text-lg">课程费课程费</div>
+										<div class="text-gray text-sm">
+											发放时间:2020-06-20 12:05:06
+										</div>
+									</div>
+									<div class="flex align-center mui-checkbox padding-left-xl">
+										<div class="flex justify-end text-gray">
+											<span class="text-df">￥</span>
+											<span class="text-xl">230</span>
+										</div>
+									</div>
+								</div>
+								<div style="min-width: 46px;">
+									<div class="flex align-center justify-center text-xs text-appcolor finishs pos-absolute text-center">
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="padding-sm padding-left-none border-bottom pos-relative">
+							<div class="flex justify-between">
+								<div class="flex flex-treble justify-between">
+									<div class="flex-treble">
+										<div class="flex text-lg">课程费</div>
+										<div class="text-gray text-sm">
+											发放时间:2020-06-20 12:05:06
+										</div>
+									</div>
+									<div class="flex align-center mui-checkbox padding-left-xl">
+										<div class="flex flex-sub justify-end text-red">
+											<span class="text-df">￥</span>
+											<span class="text-xl">230</span>
+										</div>
+									</div>
+								</div>
+								<div style="min-width: 46px;">
+									<div class="flex align-center justify-center progress text-xs text-appcolor pos-absolute text-center">
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="padding-sm padding-left-none border-bottom pos-relative">
+							<div class="flex justify-between">
+								<div class="flex flex-treble justify-between">
+									<div class="flex-treble">
+										<div class="flex flex-treble text-lg">课程费课程费课程费课程费</div>
+										<div class="text-gray text-sm">
+											发放时间:2020-06-20 12:05:06
+										</div>
+									</div>
+									<div class="flex align-center mui-checkbox padding-left-xl">
+										<div class="flex flex-sub justify-end text-red">
+											<span class="text-df">￥</span>
+											<span class="text-xl">230</span>
+										</div>
+									</div>
+								</div>
+								<div style="min-width: 46px;">
+									<div class="flex align-center justify-center unconfirmed text-xs text-appcolor pos-absolute text-center">
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<script src="../../js/mui.js"></script>
+		<script type="text/javascript">
+			// 设置水印背景图
+			window.onload = function() {
+				var odiv = document.getElementById("imgBg");
+				console.log("odiv", odiv)
+				odiv.style.position = "absolute";
+				odiv.style.backgroundRepeat = "no-repeat";
+				odiv.style.backgroundSize = "26%";
+				odiv.style.top = "10px";
+				odiv.style.right = 0;
+				odiv.style.left = "10px";
+				odiv.style.bottom = 0;
+				odiv.style.backgroundImage = "url('../../images/10673.png')";
+			}
+		</script>
+	</body>
+</html>

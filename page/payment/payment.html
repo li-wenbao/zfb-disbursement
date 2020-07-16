@@ -1,0 +1,125 @@
+<!doctype html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title></title>
+		<meta name="viewport" content="width=device-width, initial-scale=1,maximum-scale=1, user-scalable=no">
+		<meta name="apple-mobile-web-app-capable" content="yes">
+		<meta name="apple-mobile-web-app-status-bar-style" content="black">
+		<link href="../../css/mui.css" rel="stylesheet" />
+		<link href="../../css/main.css" rel="stylesheet" />
+		<link href="../../css/icon.css" rel="stylesheet" />
+		<link href="../../css/payment.css" rel="stylesheet" />
+		<link href="../../css/style.css" rel="stylesheet" />
+	</head>
+	<body style="background: #efefef;">
+		<div class="">
+			<div class="pos-relative bg-nameinfo">
+				<div class="" id="imgBg"></div>
+				<div class="pos-absolute padding-sm pos-bottom-10" style="width: 100%;">
+					<div class="flex align-center radius30 bg-white padding-sm">
+						<div class="Image round">
+							<img class="Image round" src="../../images/logo.png" />
+						</div>
+						<div class=" flex-treble margin-left-sm">
+							<div class="flex align-center text-df">
+								<div class="flex-treble text-lg text-bold">李晓丽</div>
+							</div>
+							<div class="flex align-center">
+								<div class="flex-treble text-sm">
+									<span>学号:</span> <span class="margin-left-xs">20182010242</span>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<!-- <div style="height:20px;"></div> -->
+			<div class="margin-xs text-lg bg-white radius30">
+				<!-- 如果没有数据时显示 -->
+				<!-- <div class="flex justify-center padding-top-xl text-gray margin-top-xs" style="min-height: 200px;">
+					--暂无发放账单--
+				</div> -->
+				<div class="padding-sm margin-top-xs">
+					<div class="flex border-bottom padding-top-sm padding-bottom-sm">
+						<div class="flex-treble">
+							<div class="flex justify-between">
+								<div class="flex text-lg">课程费课程费课程费课程费</div>
+							</div>
+							<div class="text-gray text-sm">
+								截止时间:2020年06月20日
+							</div>
+						</div>
+						<div class="flex align-center mui-checkbox padding-left-xl">
+							<div class="flex flex-sub justify-end text-red">
+								<span class="text-df">￥</span>
+								<span class="text-xl">230</span>
+							</div>
+						</div>
+						<div class="flex align-center mui-checkbox padding-left-xl">
+							<input name="checkbox1" value="Item 1" type="checkbox">
+						</div>
+					</div>
+					<div class="flex border-bottom padding-top-sm padding-bottom-sm">
+						<div class="flex-treble">
+							<div class="flex justify-between">
+								<div class="flex text-lg">课程费课程费课程费课程费</div>
+							</div>
+							<div class="text-gray text-sm">
+								截止时间:2020年06月20日
+							</div>
+						</div>
+						<div class="flex align-center mui-checkbox padding-left-xl">
+							<div class="flex flex-sub justify-end text-red">
+								<span class="text-df">￥</span>
+								<span class="text-xl">230</span>
+							</div>
+						</div>
+						<div class="flex align-center mui-checkbox padding-left-xl">
+							<input name="checkbox1" value="Item 1" type="checkbox">
+						</div>
+					</div>
+					<div class="flex border-bottom padding-top-sm padding-bottom-sm">
+						<div class="flex-treble">
+							<div class="flex justify-between">
+								<div class="flex text-lg">课程费课程费课程费课程费</div>
+							</div>
+							<div class="text-gray text-sm">
+								截止时间:2020年06月20日
+							</div>
+						</div>
+						<div class="flex align-center mui-checkbox padding-left-xl">
+							<div class="flex flex-sub justify-end text-red">
+								<span class="text-df">￥</span>
+								<span class="text-xl">230</span>
+							</div>
+						</div>
+						<div class="flex align-center mui-checkbox padding-left-xl">
+							<input name="checkbox1" value="Item 1" type="checkbox">
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!-- 没有数据的时候不显示按钮 -->
+		<div class="margin-xs margin-top-sm padding-sm radius50 text-lg text-center bg-linear" id="gohome">
+			<div class="save">确定</div>
+		</div>
+		<script src="../../js/mui.js"></script>
+		<script type="text/javascript">
+			// 设置水印背景图
+			window.onload = function() {
+				var odiv = document.getElementById("imgBg");
+				console.log("odiv", odiv)
+				odiv.style.position = "absolute";
+				odiv.style.backgroundRepeat = "no-repeat";
+				odiv.style.backgroundSize = "26%";
+				odiv.style.top = "10px";
+				odiv.style.right = 0;
+				odiv.style.left = "10px";
+				odiv.style.bottom = 0;
+				odiv.style.backgroundImage = "url('../../images/10673.png')";
+			}
+		</script>
+	</body>
+</html>
